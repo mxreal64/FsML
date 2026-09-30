@@ -173,7 +173,7 @@ result {
 
 ### Building the Framework
 ```bash
-git clone https://github.com/your-username/FsML.git
+git clone https://github.com/mxreal64/FsML.git
 cd FsML
 dotnet build
 ```
