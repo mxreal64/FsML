@@ -1,4 +1,6 @@
-# FsML: The Next-Generation F# Machine Learning Framework
+# FsML
+
+a Next-Generation Machine Learning Framework built in F#
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![.NET](https://img.shields.io/badge/.NET-11.0-blue.svg)](https://dotnet.microsoft.com/)
