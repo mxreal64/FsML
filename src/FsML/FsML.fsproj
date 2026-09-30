@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <AssemblyName>FsML</AssemblyName>
+    <RootNamespace>FsML</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Core/Memory.fs" />
+    <Compile Include="Core/Kernels.fs" />
+    <Compile Include="Tensor/Tensor.fs" />
+    <Compile Include="Tensor/Shapes.fs" />
+    <Compile Include="Autograd/Value.fs" />
+    <Compile Include="Autograd/Ops.fs" />
+    <Compile Include="Autograd/Engine.fs" />
+    <Compile Include="NN/Parameter.fs" />
+    <Compile Include="NN/Layers.fs" />
+    <Compile Include="NN/Losses.fs" />
+    <Compile Include="Optim/Optimizer.fs" />
+    <Compile Include="Optim/Schedulers.fs" />
+    <Compile Include="Data/ActivePatterns.fs" />
+    <Compile Include="Data/DataLoader.fs" />
+    <Compile Include="Visualization/HtmlFormatters.fs" />
+    <Compile Include="Backend/Onnx.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.20.1" />
+  </ItemGroup>
+
+</Project>
